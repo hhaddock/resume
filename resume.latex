@@ -27,7 +27,7 @@
 \begin{center}
     {\LARGE \color{darkblue} \textbf{Hayden Haddock}} \\
     \vspace{1em}
-    {\color{graytext}\textbf{Phone:} (314) 518 9870 \quad \textbf{Email:} \href{mailto:haydenhaddock1@gmail.com}{haydenhaddock1@gmail.com}}
+    {\color{graytext}\textbf{Phone:} (314) 518 9870 \quad \textbf{Email:} \href{mailto:haydenhaddock1@gmail.com}{haydenhaddock1@gmail.com}} \quad
     {\color{graytext}\textbf{GitHub:} \href{http://github.com/hhaddock}{github.com/hhaddock}}
 \end{center}
 
@@ -42,25 +42,25 @@
 {\color{darkblue}\textit{Senior Software Engineer}} \hfill {\color{graytext}\textit{March 2023 -- Present}}
 \begin{itemize}[leftmargin=2em,noitemsep]
     \setlength\itemsep{0em}
-    \item 
-    \item WRITE TOMORROW
-    \item Worked with stakeholders during Critical Security Events to triage production issues and implement resolutions.
+    \item Aided in MPGS modernization by contributing to \textbf{Spring Boot API} and \textbf{React} micro front-end development.
+    \item Worked with stakeholders during Critical Security Events to \textbf{triage production issues} and implement resolutions.
+    \item Mentoring for Junior engineers inside and outside of team. Provided guidance on technical skills development, gave suggestions on navigating the early career, and provided anecdotes about personal work experience.
     \item Led effort to upgrade core API integration with Mastercard Gateway to a significantly newer version encompassing several major architectural changes.
-    \item Contributed to analysis, architectural discussions, and POC implementations for re-writing the Simplify Commerce platform in Java with Spring Boot.
+    \item Contributed to analysis, architectural discussions, and POC implementations for re-writing the Simplify Commerce platform using \textbf{Java} with \textbf{Spring Boot}.
 \end{itemize}
 
 \noindent \textbf{Mastercard Int.}\\
 {\color{darkblue}\textit{Software Engineer II}} \hfill {\color{graytext}\textit{March 2022 -- March 2023}}
 \begin{itemize}[leftmargin=2em,noitemsep]
     \item Created end-to-end implementation for new payment enhancement between Simplify Commerce platform and Mastercard Payment Gateway.
-    \item Implemented three new languages on platform for Angular and Grails applications. Owned translation updates on platform.
+    \item Implemented three new languages on platform for \textbf{Angular} and \textbf{Grails} applications. Owned translation updates on platform.
 \end{itemize}
 
 \noindent \textbf{Mastercard Int.}\\
 {\color{darkblue}\textit{Software Engineer I}} \hfill {\color{graytext}\textit{March 2020 -- March 2022}}
 \begin{itemize}[leftmargin=2em,noitemsep]
-    \item Worked with senior team members to re-write AngularJS application in Angular 10 and upgrade relevant dependencies and libraries.
-    \item Extended developer Command Line Interface to incorporate new tools and simplify the onboarding process for new developers.
+    \item Worked with senior team members to re-write \textbf{AngularJS} application in modern \textbf{Angular} while simultaneously updating relevant dependencies and libraries.
+    \item Extended developer \textbf{Command Line Interface} to incorporate new tools and simplify the onboarding process for new developers.
 \end{itemize}
 
 \section*{Projects}
