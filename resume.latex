@@ -42,6 +42,8 @@
 {\color{darkblue}\textit{Senior Software Engineer}} \hfill {\color{graytext}\textit{March 2023 -- Present}}
 \begin{itemize}[leftmargin=2em,noitemsep]
     \setlength\itemsep{0em}
+    \item 
+    \item WRITE TOMORROW
     \item Worked with stakeholders during Critical Security Events to triage production issues and implement resolutions.
     \item Led effort to upgrade core API integration with Mastercard Gateway to a significantly newer version encompassing several major architectural changes.
     \item Contributed to analysis, architectural discussions, and POC implementations for re-writing the Simplify Commerce platform in Java with Spring Boot.
@@ -62,21 +64,21 @@
 \end{itemize}
 
 \section*{Projects}
-\noindent \textbf{Platform Localization} \hfill {\color{graytext}\textit{Mastercard - 2022}}
+\noindent \textbf{Web Service API Integration -- Version Upgrade} \hfill {\color{graytext}\textit{Mastercard - 2020}}
 \begin{itemize}[leftmargin=2em,noitemsep]
-    \item Owned the implementation of three new languages on a platform of fifteen micro-services consisting of both Angular applications and REST API services written in Grails.
-    \item Worked across teams to ensure that new features were localized in all languages before their release in production and implemented any necessary changes to current translations.
+    \item Led effort to update core API integration of the Simplify Commerce Product to significantly newer version.
+    \item Worked with stakeholders to elaborate feature requirements, provide updates on development progress, and ensure proper sign-off after completion.
+    \item Collaborated with Penetration Testing team to facilitate testing of all effected micro services before release into production.
 \end{itemize}
 
-\noindent \textbf{Partner Config App Angular Upgrade} \hfill {\color{graytext}\textit{Mastercard - 2020}}
+\noindent \textbf{Platform Localization} \hfill {\color{graytext}\textit{Mastercard - 2022}}
 \begin{itemize}[leftmargin=2em,noitemsep]
-    \item Utilized Angular 10 to re-create each functional aspect of the AngularJS application following modern practices with Components, Services, and Directives.
-    \item Created a solution for complex asynchronous operations that made calls to different endpoints and aggregated the results.
-    \item Re-wrote AngularJS libraries and dependencies that the app required for authentication and styling.
+    \item Owned the implementation of three new languages on Simplify Commerce platform consisting of both Angular applications and REST API services written in Grails.
+    \item Worked across team boundaries to ensure that new features were localized in all languages before their release in production and implemented any necessary changes to current translations.
 \end{itemize}
 
 \section*{Technical Skills}
-\noindent \textbf{Programming Languages:} HTML, CSS, Java, JavaScript/jQuery, Groovy, TypeScript, SQL\\
-\textbf{Technology:} Angular, Spring Boot, Grails, NodeJS, Pivotal Cloud Foundry, Splunk, Jenkins, Git, Unix, Network Infrastructure, System Administration
+\noindent \textbf{Programming Languages:} Java, JavaScript/jQuery, Groovy, TypeScript, SQL, HTML, CSS, \\
+\textbf{Technology:} Spring Boot, Spring Web, Spring Security, Angular, React, NodeJS, PostgreSQL, Redis, Pivotal Cloud Foundry, Splunk, Jenkins, Git, Unix
 
 \end{document}
