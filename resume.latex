@@ -1,0 +1,82 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=1in, bottom=1in, left=0.75in, right=0.75in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+% Define colors
+\definecolor{darkblue}{RGB}{0, 78, 102}
+\definecolor{graytext}{RGB}{80, 80, 80}
+
+% new rule for hrule after section title
+\newcommand{\hruleafter}[1]{#1\hrule}
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{darkblue}}{}{0em}{\hruleafter}
+% Section spacing -- keep all at zero for most compact
+\titlespacing*{\section}{0em}{0em}{0em}
+% set font 
+\renewcommand{\familydefault}{\sfdefault}
+% disable page numbers
+\pagenumbering{gobble}
+
+\begin{document}
+
+% Top Level Header
+\begin{center}
+    {\LARGE \color{darkblue} \textbf{Hayden Haddock}} \\
+    \vspace{1em}
+    {\color{graytext}\textbf{Phone:} (314) 518 9870 \quad \textbf{Email:} \href{mailto:haydenhaddock1@gmail.com}{haydenhaddock1@gmail.com}}
+    {\color{graytext}\textbf{GitHub:} \href{http://github.com/hhaddock}{github.com/hhaddock}}
+\end{center}
+
+\section*{Education}
+\noindent\textbf{University of Missouri \hfill Columbia, Missouri} \\
+\quad B.S., Information Technology Engineering, Minor in Computer Science \hfill \textit{ 2015--2019}\\
+\textbf{Relevant Coursework:} Software Engineering, Algorithm Design, Cyber Security, Database Systems, Full Stack Web Development, Object Oriented Programming
+
+\vspace{1em}
+\section*{Professional Experience}
+\noindent \textbf{Mastercard Int.}\\
+{\color{darkblue}\textit{Senior Software Engineer}} \hfill {\color{graytext}\textit{March 2023 -- Present}}
+\begin{itemize}[leftmargin=2em,noitemsep]
+    \setlength\itemsep{0em}
+    \item Worked with stakeholders during Critical Security Events to triage production issues and implement resolutions.
+    \item Led effort to upgrade core API integration with Mastercard Gateway to a significantly newer version encompassing several major architectural changes.
+    \item Contributed to analysis, architectural discussions, and POC implementations for re-writing the Simplify Commerce platform in Java with Spring Boot.
+\end{itemize}
+
+\noindent \textbf{Mastercard Int.}\\
+{\color{darkblue}\textit{Software Engineer II}} \hfill {\color{graytext}\textit{March 2022 -- March 2023}}
+\begin{itemize}[leftmargin=2em,noitemsep]
+    \item Created end-to-end implementation for new payment enhancement between Simplify Commerce platform and Mastercard Payment Gateway.
+    \item Implemented three new languages on platform for Angular and Grails applications. Owned translation updates on platform.
+\end{itemize}
+
+\noindent \textbf{Mastercard Int.}\\
+{\color{darkblue}\textit{Software Engineer I}} \hfill {\color{graytext}\textit{March 2020 -- March 2022}}
+\begin{itemize}[leftmargin=2em,noitemsep]
+    \item Worked with senior team members to re-write AngularJS application in Angular 10 and upgrade relevant dependencies and libraries.
+    \item Extended developer Command Line Interface to incorporate new tools and simplify the onboarding process for new developers.
+\end{itemize}
+
+\section*{Projects}
+\noindent \textbf{Platform Localization} \hfill {\color{graytext}\textit{Mastercard - 2022}}
+\begin{itemize}[leftmargin=2em,noitemsep]
+    \item Owned the implementation of three new languages on a platform of fifteen micro-services consisting of both Angular applications and REST API services written in Grails.
+    \item Worked across teams to ensure that new features were localized in all languages before their release in production and implemented any necessary changes to current translations.
+\end{itemize}
+
+\noindent \textbf{Partner Config App Angular Upgrade} \hfill {\color{graytext}\textit{Mastercard - 2020}}
+\begin{itemize}[leftmargin=2em,noitemsep]
+    \item Utilized Angular 10 to re-create each functional aspect of the AngularJS application following modern practices with Components, Services, and Directives.
+    \item Created a solution for complex asynchronous operations that made calls to different endpoints and aggregated the results.
+    \item Re-wrote AngularJS libraries and dependencies that the app required for authentication and styling.
+\end{itemize}
+
+\section*{Technical Skills}
+\noindent \textbf{Programming Languages:} HTML, CSS, Java, JavaScript/jQuery, Groovy, TypeScript, SQL\\
+\textbf{Technology:} Angular, Spring Boot, Grails, NodeJS, Pivotal Cloud Foundry, Splunk, Jenkins, Git, Unix, Network Infrastructure, System Administration
+
+\end{document}
