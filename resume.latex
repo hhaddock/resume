@@ -33,7 +33,8 @@
 
 \section*{Education}
 \noindent\textbf{University of Missouri \hfill Columbia, Missouri} \\
-\quad B.S., Information Technology Engineering, Minor in Computer Science \hfill \textit{ 2015--2019}\\
+\quad B.S., Information Technology Engineering, Minor in Computer Science \hfill \textit{ 2015--2019}
+\newline
 \textbf{Relevant Coursework:} Software Engineering, Algorithm Design, Cyber Security, Database Systems, Full Stack Web Development, Object Oriented Programming
 
 \vspace{1em}
@@ -42,17 +43,17 @@
 {\color{darkblue}\textit{Senior Software Engineer}} \hfill {\color{graytext}\textit{March 2023 -- Present}}
 \begin{itemize}[leftmargin=2em,noitemsep]
     \setlength\itemsep{0em}
-    \item Aided in MPGS modernization by contributing to \textbf{Spring Boot API} and \textbf{React} micro front-end development.
+    \item Aided in MPGS modernization by contributing to \textbf{Spring Boot} API development building \textbf{User Authentication / Authorization} flows.
+    \item Built modernized "Search Service" utilizing \textbf{Spring Boot} which replicates the functionality of the legacy application with modern authentication and authorization mechanisms.
     \item Worked with stakeholders during Critical Security Events to \textbf{triage production issues} and implement resolutions.
     \item Mentoring for Junior engineers inside and outside of team. Provided guidance on technical skills development, gave suggestions on navigating the early career, and provided anecdotes about personal work experience.
     \item Led effort to upgrade core API integration with Mastercard Gateway to a significantly newer version encompassing several major architectural changes.
-    \item Contributed to analysis, architectural discussions, and POC implementations for re-writing the Simplify Commerce platform using \textbf{Java} with \textbf{Spring Boot}.
 \end{itemize}
 
 \noindent \textbf{Mastercard Int.}\\
 {\color{darkblue}\textit{Software Engineer II}} \hfill {\color{graytext}\textit{March 2022 -- March 2023}}
 \begin{itemize}[leftmargin=2em,noitemsep]
-    \item Created end-to-end implementation for new payment enhancement between Simplify Commerce platform and Mastercard Payment Gateway.
+    \item Created end-to-end implementation for new payment enhancement between Simplify Commerce platform and the Mastercard Payment Gateway.
     \item Implemented three new languages on platform for \textbf{Angular} and \textbf{Grails} applications. Owned translation updates on platform.
 \end{itemize}
 
@@ -66,8 +67,8 @@
 \section*{Projects}
 \noindent \textbf{Web Service API Integration -- Version Upgrade} \hfill {\color{graytext}\textit{Mastercard - 2024}}
 \begin{itemize}[leftmargin=2em,noitemsep]
-    \item Led effort to update core API integration of the Simplify Commerce Product to significantly newer version.
-    \item Worked with stakeholders to elaborate feature requirements, provide updates on development progress, and ensure proper sign-off after completion.
+    \item Led effort to upgrade core API integration of the Simplify Commerce Product to significantly newer version, touching ten different microservices.
+    \item Worked with stakeholders to elaborate feature requirements, provide updates on development progress, and ensure proper approvals after delivery to production.
     \item Collaborated with Penetration Testing team to facilitate testing of all effected micro services before release into production.
 \end{itemize}
 
